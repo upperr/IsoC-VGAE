@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score
 
 parser = argparse.ArgumentParser(description = 'parameters')
 # experimental options
-parser.add_argument('--dataset', type = str, default = 'Cora', help = "Dataset name: MUTAG, PTC_MR, IMDB-BINARY, COLLAB")
+parser.add_argument('--dataset', type = str, default = 'MUTAG', help = "Dataset name: MUTAG, PTC_MR, IMDB-BINARY, COLLAB")
 parser.add_argument('--GNN', type = str, default = 'GIN', help = "GNN name for encoder: GCN, GIN")
 parser.add_argument('--learning_rate', type = float, default = 5e-6, help = 'Learning rate.')
 parser.add_argument('--epochs_train', type = int, default = 30, help = 'Max number of epochs for training. Training may stop early after convergence.')
