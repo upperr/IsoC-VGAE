@@ -12,7 +12,7 @@ This is the source code of our work "Isomorphic-Consistent Variational Graph Aut
 
 ## Examples
 
-### node classification
+### Node Classification
 
 ```
 python train_node.py --dataset Cora
@@ -26,7 +26,7 @@ python train_node.py --dataset CiteSeer
 python train_node.py --dataset PubMed
 ```
 
-### link prediction
+### Link Prediction
 
 ```
 python train_link.py --dataset Cora
@@ -40,7 +40,7 @@ python train_link.py --dataset CiteSeer
 python train_link.py --dataset PubMed --bn PairNorm
 ```
 
-### graph classification
+### Graph Classification
 
 ```
 python train_graph.py --dataset IMDB-BINARY --seed_data 10
